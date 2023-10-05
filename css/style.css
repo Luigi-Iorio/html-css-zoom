@@ -36,3 +36,43 @@ button:hover {
   cursor: pointer;
   background-color: #292929;
 }
+
+/* MAIN */
+main {
+  padding: 20px 0;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+}
+
+.grid {
+  max-width: 1700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.user {
+  position: relative;
+  width: 200px;
+}
+
+.user img {
+  width: 100%;
+  display: block;
+}
+
+.user .name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  color: white;
+  background-color: rgba(74, 74, 74, 0.494);
+}
